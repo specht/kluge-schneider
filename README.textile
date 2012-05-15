@@ -6,9 +6,9 @@ Die fertigen MP3-Dateien befinden sich am Ende im Verzeichnis mp3.
 
 h1. Voraussetzungen
 
-Entwickelt und getestet wurde das System unter Ubuntu 11.10. Mit dem folgenden Paket lassen sich alle nötigen Abhängigkeiten installieren:
+Entwickelt und getestet wurde das System unter Ubuntu 11.10. Mit dem folgenden Paket lassen sich alle nötigen Abhängigkeiten installieren (man muss die 'universe'-Quellen aktivieren):
 
-sudo apt-get install 
+sudo apt-get install ruby curl rtmpdump libsox-fmt-ffmpeg ffmpeg sox libid3-tools
 
 Es kann hin und wieder passieren, dass einzelne Filme auf DCTP.tv (vorübergehend) nicht verfügbar sind. 
 
