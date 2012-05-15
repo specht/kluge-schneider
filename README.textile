@@ -6,7 +6,7 @@ Das Skript kann am Ende beliebig durch weitere URLs erweitert werden, optional a
 
 h1. Voraussetzungen
 
-Entwickelt und getestet wurde das Skript unter Ubuntu 11.10. Mit dem folgenden Paket lassen sich alle nötigen Abhängigkeiten installieren (man muss die 'universe'-Quellen aktivieren):
+Entwickelt und getestet wurde das Skript unter Ubuntu 11.10. Mit dem folgenden Befehl sollten sich alle nötigen Abhängigkeiten installieren lassen (man muss die 'universe'-Quellen aktivieren):
 
 sudo apt-get install ruby curl rtmpdump libsox-fmt-ffmpeg ffmpeg sox libid3-tools
 
