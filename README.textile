@@ -1,12 +1,10 @@
 h1. Was macht dieses Skript?
 
-Dieses Skript lädt Helge-Schneider-Filme von http://www.dctp.tv herunter, extrahiert die Audiospur und schneidet minutenlangen, dissonanten Kokolores heraus.
-
-Die fertigen MP3-Dateien befinden sich am Ende im Verzeichnis mp3.
+Dieses Skript lädt Helge-Schneider-Filme von http://www.dctp.tv herunter, extrahiert die Audiospur und schneidet minutenlangen, dissonanten Kokolores heraus. Am Ende befinden sich die fertigen MP3-Dateien in einem Verzeichnis names 'mp3'.
 
 h1. Voraussetzungen
 
-Entwickelt und getestet wurde das System unter Ubuntu 11.10. Mit dem folgenden Paket lassen sich alle nötigen Abhängigkeiten installieren (man muss die 'universe'-Quellen aktivieren):
+Entwickelt und getestet wurde das Skript unter Ubuntu 11.10. Mit dem folgenden Paket lassen sich alle nötigen Abhängigkeiten installieren (man muss die 'universe'-Quellen aktivieren):
 
 sudo apt-get install ruby curl rtmpdump libsox-fmt-ffmpeg ffmpeg sox libid3-tools
 
