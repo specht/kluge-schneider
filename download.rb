@@ -6,6 +6,11 @@ FileUtils::mkdir('mp4') unless File::exists?('mp4')
 FileUtils::mkdir('aac') unless File::exists?('aac')
 FileUtils::mkdir('mp3') unless File::exists?('mp3')
 
+output = `curl -v 2> /dev/stdout`
+if output[0, 4].downcase != 'curl'
+    puts "Error: curl is required to run this script."
+    exit
+end
 output = `rtmpdump 2> /dev/stdout`
 if output[0, 8].downcase != 'rtmpdump'
     puts "Error: rtmpdump is required to run this script."

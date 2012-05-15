@@ -1,0 +1,50 @@
+h1. Was macht dieses Skript?
+
+Dieses Skript lädt Helge-Schneider-Filme von http://www.dctp.tv herunter, extrahiert die Audiospur und schneidet minutenlangen, dissonanten Kokolores heraus.
+
+Die fertigen MP3-Dateien befinden sich am Ende im Verzeichnis mp3.
+
+h1. Voraussetzungen
+
+Entwickelt und getestet wurde das System unter Ubuntu 11.10. Mit dem folgenden Paket lassen sich alle nötigen Abhängigkeiten installieren:
+
+sudo apt-get install 
+
+Es kann hin und wieder passieren, dass einzelne Filme auf DCTP.tv (vorübergehend) nicht verfügbar sind. 
+
+h1. Aktuelle Titelliste
+
+10 vor 11: Sendung vom 02.04.2012 - Dampfer kaputt!
+Als Hobbyhistoriker in Berlin-Mitte - Ein Zeitzeuge mitten im Geschehen
+Beinahe wären wir Römer geworden - Wenn Varus gesiegt hätte!
+Das Fahrzeug ist die zweite Haut - Nicht-olympische Wagnisse
+Der Eiersoldat - Am Tag der Invasion in der Normandie 1944
+Der Glücksvermittler - Eheanbahnung und Scheidung
+Der Hartbrettbohrer - Gipfelkonferenz in Brüssel
+Der Letzte der Nibelungen - Attilas Burg
+Der Neffe des Reeders Onassis - "Blind kann ich Geld zählen"
+Der Schweinegrippe-General - Herausforderung für militärischen Sachverstand
+Der Unterwasserwanderer - Helge Schneider als Ozeanograf
+Die Mozart-Lüge - Helge Schneider als Wolfgang Amadeus
+Dr. Mabuse der Spieler - Das zwölfte Remake
+Ein Tag, der Geschichte schreibt - Zwischen Schlager und Bruckner
+Extremsport pur - das Felsenrad - Ein Fahrrad für Gipfelstürmer
+Gesang ist Sieg! - Studienrat und Major
+Helge Schneider als Bärenfreund
+Helge Schneider als Holländer
+Helge Schneider als Lehrer
+Helge Schneider als Nobelpreisträger
+Helge Schneider als Tiefseetaucher
+Helge Schneider in Fukushima
+Helge Schneider in New York
+Helge Schneider in Nordafrika
+Heroischer Kampf  - In der Reichshauptstadt
+Hitlers Maske: MEIN FÜHRER - Wie trägt man das Gesicht des Führers?
+Ich bin eine Leseratte - Ich liebe Buchstaben, wo immer sie sind
+Ich war ein treuer Husar - Feldmarschall von Blücher
+Im Weltall braucht man keine Lesebrille - Helge Schneider und Peter Berling im Orbit
+Plattmachen ist meine Leidenschaft - Der Abrissunternehmer
+Schraube verloren, Werkzeug vergessen - Helge Schneider improvisiert im Weltraum
+Vom Henker zum aktiven Sterbehelfer - Helge Schneider als Roland von Stendhal
+Wo der Führer ist, da ist der Sieg - Meldungen vom Tage
+Zigarren-Willi - Der Sprengmeister von Vauquois
