@@ -59,6 +59,7 @@ links.each do |x|
     title = '10 vor 11: Sendung vom 02.04.2012 - Dampfer kaputt!' if link == 'http://www.dctp.tv/filme/10vor11-02042012/'
     puts title
     url = html.match(/[0-9a-f]+_iphone\.m4v/).to_a[0]
+    next unless url
     unless url.size == 43
         puts "Error: Video not found."
         next
@@ -158,3 +159,6 @@ http://www.dctp.tv/filme/hitlers-maske/ [00:00:20-00:05:28]
 http://www.dctp.tv/filme/wo-der-fuehrer-ist/
 http://www.dctp.tv/filme/hobbyhistoriker-in-berlin/
 http://www.dctp.tv/filme/heroischer-kampf-berlin/
+http://www.dctp.tv/filme/news-stories-14102012/
+http://www.dctp.tv/filme/10vor11-19112012/
+
